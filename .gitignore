@@ -1,0 +1,4 @@
+.idea
+*.pgn
+chess_model.pth
+venv/
