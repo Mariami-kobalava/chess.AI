@@ -94,7 +94,8 @@ class Node:
         self.key = key                                      # Zobrist hash of position
         self.parent = parent                                # Parent node
         self.children = {}                                  # action_index -> Node
-        self.P = np.zeros(POLICY_SIZE, dtype=np.float32)    # Prior policy P(s,a) | Prior probability vector
+        # self.P = np.zeros(POLICY_SIZE, dtype=np.float32)    # Prior policy P(s,a) | Prior probability vector
+        self.P = 0.0
         self.N = 0                                          # Visit count
         self.W = 0.0                                        # Total value
         self.Q = 0.0                                        # Mean value W/N

@@ -2,10 +2,6 @@ import os
 import torch
 import sys
 
-def init_model():
-    from cnn import CNN
-    # გამოიყენე CNN აქ
-
 
 sys.path.append(os.path.dirname(__file__))
 from cnn import CNN

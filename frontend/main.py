@@ -6,7 +6,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from backend.cnn_inference import init_model
 
-# აქ შეგიძლია გამოიყენო init_model ფუნქცია, მაგალითად:
 
 
 # from backend.cnn_inference import init_model
